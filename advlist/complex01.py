@@ -6,6 +6,8 @@ def main():
     
     # create a list called list1
     list1 = ["cisco_nxos", "arista_eos", "cisco_ios"]
+    icecream = ["flavors", "salty"]
+    northerntrust = ["Alex","Andrew","Dave","Julia","Kurt","Marlon","Roger","Seth","Tim","Viq"]
     
     # display list1
     print(list1)
@@ -36,5 +38,10 @@ def main():
 
      # display the first item in the list (0th item) - first IP address
     print(list1[4][0])
+    
+    print(icecream)
+    print(northerntrust)
+    print(northerntrust[5])
+    print( "99 flavors", icecream[1], ", and", northerntrust[5], "chooses to be", icecream[1], ) 
 main()
 
